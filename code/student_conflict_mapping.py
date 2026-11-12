@@ -21,7 +21,7 @@ def student_conflict_matrix(class_df, std_df):
     for c1 in courses:
         for c2 in courses:
             conflict = is_conflict(c1, c2)
-            if conflict and c1 != c2:
+            if conflict and c1 != c2:       # always 0 when c1 == c2
                 cnf_matrix.loc[c1, c2] = 1
                 cnf_matrix.loc[c2, c1] = 1
     
