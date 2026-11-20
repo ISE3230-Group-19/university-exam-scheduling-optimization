@@ -1,0 +1,12 @@
+test_name,slots,capacity_percent,status,feasibility,runtime_seconds,schedule_file,objective,best_bound,mip_gap_percent,exam_days
+slots_26,26,100.0,TIME_LIMIT,Feasible,15.147000074386597,slots_26_schedule.csv,66.0,0.0,100.0,5
+slots_25,25,100.0,TIME_LIMIT,Feasible,15.017000198364258,slots_25_schedule.csv,138.0,0.0,100.0,5
+slots_24(base),24,100.0,TIME_LIMIT,Feasible,15.063999891281128,slots_24(base)_schedule.csv,81.0,0.0,100.0,4
+slots_23,23,100.0,INFEASIBLE,Infeasible,2.611999988555908,,,,,4
+slots_22,22,100.0,INFEASIBLE,Infeasible,2.2769999504089355,,,,,4
+capacity_80,24,80.0,TIME_LIMIT,Feasible,16.480000019073486,capacity_80_schedule.csv,99.0,0.0,100.0,4
+capacity_60,24,60.0,TIME_LIMIT,Feasible,15.101999998092651,capacity_60_schedule.csv,98.0,0.0,100.0,4
+capacity_40,24,40.0,TIME_LIMIT,Feasible,15.07800006866455,capacity_40_schedule.csv,103.0,0.0,100.0,4
+capacity_30,24,30.0,TIME_LIMIT,Feasible,15.075999975204468,capacity_30_schedule.csv,98.0,0.0,100.0,4
+capacity_25,24,25.0,INFEASIBLE,Infeasible,0.03899979591369629,,,,,4
+capacity_20,24,20.0,INFEASIBLE,Infeasible,0.004999876022338867,,,,,4
